@@ -1,0 +1,6 @@
+/* div sized the same as the background image */
+div { 
+	background:	url("heading2.jpg") no-repeat; 
+	width:		250px; 
+	height:		76px; 
+}
