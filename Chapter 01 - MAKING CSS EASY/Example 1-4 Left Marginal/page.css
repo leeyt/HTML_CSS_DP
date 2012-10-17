@@ -1,0 +1,15 @@
+*.left-marginal {
+	/* reference point for the marginal heading */
+	position:			relative;
+	/* make room for heading */
+	margin-left:	200px;  
+}
+
+*.marginal-heading {
+	/* move heading into left margin */ 
+	position:		absolute; 
+	left:				-200px; 
+	top:				0;
+
+	margin:			0; 
+}
