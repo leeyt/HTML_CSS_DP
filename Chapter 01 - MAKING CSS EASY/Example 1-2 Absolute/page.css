@@ -1,0 +1,34 @@
+/* Non-essential styles */
+
+*.positioned { 
+	height:			200px; 
+	border:			2px solid black; 
+}
+
+*.positioned::before {
+	content:		'positioned';
+}
+
+*.absolute   { 
+	padding:		5px; 
+	text-align:	center; 
+  border:			5px solid black; 
+  background-color: gold; 
+}
+
+*.absolute::before {
+	content: 		'absolute positioned';
+}
+
+/* Essential Styles */
+
+*.positioned {
+	position:	relative; 	/* as long as not 'static' positioned */ 
+}
+
+*.absolute   { 
+	position:	absolute; 
+	top:			100px; 
+	left:			100px; 
+}
+
