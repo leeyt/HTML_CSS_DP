@@ -1,0 +1,22 @@
+#h2 {
+	/* provide a point of reference for the replacement image */
+	position:		relative;
+	/* sized the same as the replacement image */ 
+	width:			250px; 
+	height:			76px; 
+	/* clip the overflowed content */
+	overflow:		hidden; 
+}
+
+#h2 span {
+	/* positioned on top of heading text */ 
+	position: 	absolute;
+	left:				0; 
+	top:				0;
+	/* sized the same as the replacement image */
+	width:			250px;
+	height:			76px;
+	/* as background image */
+	background:	url("heading2.jpg") 
+	no-repeat; 
+}

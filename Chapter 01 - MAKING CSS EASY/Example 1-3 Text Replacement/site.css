@@ -1,0 +1,26 @@
+body { 
+	margin:				0px; 
+	padding:			0px	20px 20px 20px; 
+	width:				702px;
+	font-family:	Verdana, Arial, sans-serif; 
+	font-size:		18px;
+	border:				1px dashed black;
+}
+
+* {
+	box-sizing:		border-box;
+}
+
+h1 {
+	margin:				10px 0px;
+	font-size:		30px;
+	background-color: gray;
+}
+
+p { 
+	margin-top:		20px; 
+}
+
+span {
+	border:				1px dotted red;
+}
