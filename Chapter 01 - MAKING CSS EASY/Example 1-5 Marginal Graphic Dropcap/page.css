@@ -1,0 +1,29 @@
+*.indent {
+	/* reference point for graphic-dropcap */ 
+	position:			relative;
+	/* make room for dropcap image */ 
+	margin-left:	120px; 
+}
+
+*.graphic-dropcap {
+	/* move dropcap into left margin */ 
+	/* reference point for graphic-dropcap span */
+	position:			absolute; 
+	left:					-120px; 
+	top:					0; 
+	/* sized the same as the dropcap image */
+	width:				120px; 
+	height:				90px; 
+}
+
+*.graphic-dropcap span {
+	/* move dropcap image on top of the dropcap text */
+	position:			absolute;
+	left:					0; 
+	top:					0; 
+ 	/* sized the same as the dropcap image */
+  width:				120px; 
+  height:				90px; 
+  margin:				0;
+	background:		url("m.jpg") no-repeat; 
+}

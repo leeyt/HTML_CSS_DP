@@ -1,0 +1,18 @@
+* {
+	box-sizing:	border-box;
+}
+
+body { 
+	margin:				0px; 
+	padding:			0px 20px 20px 20px; 
+	width:				702px;
+	font-family: 	Verdana, Arial, sans-serif; 
+	font-size:		18px; 
+	border:				1px dashed black;
+}
+
+h1 { 
+	margin:				10px 0;
+	font-size:		30px;
+	background-color: gray;
+}
