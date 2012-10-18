@@ -16,10 +16,10 @@ If competing rules tied, resolve through location group.
 
 Location group priorities (high to low):
 
-1. <style> in <head> of HTML document
-2. stylesheet imported through @import statement within <style> element
-3. stylesheet attached by <link> element
-4. stylesheet imported through @import statement within stylesheet attached by <link> element
+1. &lt;style&gt; in &lt;head&gt; of HTML document
+2. stylesheet imported through @import statement within &lt;style&gt; element
+3. stylesheet attached by &lt;link&gt; element
+4. stylesheet imported through @import statement within stylesheet attached by &lt;link&gt; element
 5. stylesheet attached by end user (!important moves user-defined rule to highest priority)
 6. default stylesheet supplied by browser
 
