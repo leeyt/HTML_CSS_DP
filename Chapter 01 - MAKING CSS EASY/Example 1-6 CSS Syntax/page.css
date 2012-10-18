@@ -1,0 +1,26 @@
+body {
+	/* Comma-delimited value list */
+	/* Multi-word value enclosed in double quotes */
+	font-family: 	"Century Gothic", Verdana, Arial, sans-serif;
+	/* absolute size: px, pt, in, cm, mm, pc */
+	font-size:		20px;
+	/* relative size */
+	line-height:	150%;
+	/* relative size: em, ex */
+	margin:				1em;
+	/* shortcut property for border-width, border-style, border-color */
+	border:				4px double black;
+	padding:			0.25em;
+	/* url() */
+	background-image:		url(gradient.gif); 
+	background-repeat:	repeat-x; 
+}
+
+p {
+	/* shorcut for zeroing margin-top, margin-right, margin-bottom, margin-left */
+	margin:				0; 
+}
+
+span { 
+	font-weight:	900; 
+}
